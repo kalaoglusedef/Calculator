@@ -1,0 +1,25 @@
+.container {
+    width: 400px;
+
+    > row:first-child {
+        > #conclusion {
+            height: 50px;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        height: 36px;
+        &.gray {
+            background-color: #dadce0;
+        }
+
+        &.blue {
+            background-color: #4285f4;
+        }
+
+        &.opacity {
+            background-color: #f1f3f4;
+        }
+    }
+}
