@@ -34,6 +34,7 @@ $("#equals").click(function () {
 });
 
 $(document).keyup(function (event) {
+  console.log(event);
   if (event.keyCode === 96 || event.keyCode === 48) {
     setText("0");
   }
@@ -49,7 +50,7 @@ $(document).keyup(function (event) {
   if (event.keyCode === 100 || event.keyCode === 52) {
     setText("4");
   }
-  if (event.keyCode === 101) {
+  if (event.keyCode === 101 || (!event.shiftKey && event.keyCode === 53)) {
     setText("5");
   }
   if (event.keyCode === 102 || event.keyCode === 54) {
@@ -76,7 +77,7 @@ $(document).keyup(function (event) {
   if (event.keyCode === 109) {
     setText("-");
   }
-  if (event.keyCode === 53) {
+  if (event.keyCode === 53 && event.shiftKey) {
     setText("%");
   }
   if (event.keyCode === 190) {
