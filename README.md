@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**This project is built on HTML+JavaScript+jQuery+Bootstrap+Sass. It is a responsive design and ýt has keyboard support.** :1234:
+**This project is built on HTML+JavaScript+jQuery+Bootstrap+Sass. It is a responsive design and it has keyboard support.** :1234:
 
 ## DEMO
 
